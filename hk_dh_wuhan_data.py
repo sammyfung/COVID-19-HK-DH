@@ -6,7 +6,7 @@ def get_date(date=''):
         date = datetime.now()
     else:
         try:
-            date = datetime.strptime(date, "%d/%m/%Y")
+            date = datetime.strptime(date + " 23:59:59", "%d/%m/%Y %H:%M:%S")
         except:
             return ''
     return date.strftime('%Y-%m-%dT%H:%M:%S')
@@ -37,8 +37,13 @@ def get_hk_dh_data(date=''):
             recovered += 1
         elif row[6] == 'Deceased':
             deaths += 1
-    if date == '' or date == 'ALL':
+    if date == '':
         print_data(get_date(), confirmed, deaths, recovered)
+    elif date == 'ALL':
+        if last_date == datetime.strptime(last_date, "%d/%m/%Y"):
+            print_data(get_date(), confirmed, deaths, recovered)
+        else:
+            print_data(get_date(last_date), confirmed, deaths, recovered)
 
 def print_data(date, confirmed, deaths, recovered):
     print('Hong Kong,Hong Kong,%s,%s,%s,%s,22.3000,114.2000' % (date, confirmed, deaths, recovered))
