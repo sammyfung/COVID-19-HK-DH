@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/sammyfung/COVID-19-HK-DH.svg?branch=master)](https://travis-ci.org/sammyfung/COVID-19-HK-DH)
+[![Build Status](https://travis-ci.com/sammyfung/COVID-19-HK-DH.svg?branch=master)](https://travis-ci.com/sammyfung/COVID-19-HK-DH)
 
 # Hong Kong Department of Health - Wuhan Virus Data Scraper
 
