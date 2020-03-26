@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sammyfung/COVID-19-HK-DH.svg?branch=master)](https://travis-ci.org/sammyfung/COVID-19-HK-DH)
+
 # Hong Kong Department of Health - Wuhan Virus Data Scraper
 
 It is a simple scraper to return daily confirmed/deaths/recovered numbers of COVID-19 'Wuhan' Coronavirus Cases in Hong Kong from the [data source](https://data.gov.hk/en-data/dataset/hk-dh-chpsebcddr-novel-infectious-agent/resource/05e8a593-1469-4348-937d-2746afd11442) provided by Department of Health in Hong Kong.
