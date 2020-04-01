@@ -2,7 +2,7 @@
 
 # Hong Kong Department of Health - Wuhan Virus Data Scraper
 
-It is a simple scraper to return daily confirmed/deaths/recovered numbers of COVID-19 'Wuhan' Coronavirus Cases in Hong Kong from the [data source](https://data.gov.hk/en-data/dataset/hk-dh-chpsebcddr-novel-infectious-agent/resource/05e8a593-1469-4348-937d-2746afd11442) provided by Department of Health in Hong Kong.
+It is a simple scraper to return daily confirmed/deaths/recovered numbers of COVID-19 'Wuhan' Coronavirus Cases in Hong Kong from the 'Details of probable/confirmed cases of COVID-19 infection in Hong Kong (English) Share' on [data source](https://data.gov.hk/en-data/dataset/hk-dh-chpsebcddr-novel-infectious-agent) provided by Department of Health in Hong Kong.
 
 Data are outputted to standard output in CSV syntax of [JHU CSSE's COVID-19 project](https://github.com/CSSEGISandData/COVID-19).
 
