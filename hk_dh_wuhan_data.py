@@ -16,7 +16,7 @@ def get_hk_dh_data(date=''):
     '''
     Data URL refers to 'Details of probable/confirmed cases of COVID-19 infection in Hong Kong (English) Share' on https://data.gov.hk/en-data/dataset/hk-dh-chpsebcddr-novel-infectious-agent
     '''
-    data_url = 'http://www.chp.gov.hk/files/misc/enhanced_sur_pneumonia_wuhan_eng.csv'
+    data_url = 'http://www.chp.gov.hk/files/misc/enhanced_sur_covid_19_eng.csv'
     last_date = ''
     confirmed = 0
     deaths = 0
