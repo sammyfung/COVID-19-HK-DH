@@ -18,6 +18,8 @@ def test_all(capsys):
             assert int(col[5]) >= 0
             assert float(col[6]) >= -90
             assert float(col[7]) >= -180
+    with open("covid19_hk_data.csv", "w") as f:
+        f.write(captured[0]) 
     assert record > 0
 
 

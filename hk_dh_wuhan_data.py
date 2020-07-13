@@ -40,15 +40,17 @@ def get_hk_dh_data(date=''):
         elif row[6] == 'Deceased':
             deaths += 1
     if date == '':
-        print_data(get_date(), confirmed, deaths, recovered)
+        print_data(get_date(last_date), confirmed, deaths, recovered)
     elif date == 'ALL':
         if last_date == datetime.strptime(last_date, "%d/%m/%Y"):
             print_data(get_date(), confirmed, deaths, recovered)
         else:
             print_data(get_date(last_date), confirmed, deaths, recovered)
 
+
 def print_data(date, confirmed, deaths, recovered):
     print('Hong Kong,Hong Kong,%s,%s,%s,%s,22.3000,114.2000' % (date, confirmed, deaths, recovered))
+
 
 if __name__ == "__main__":
     if len(sys.argv) >= 2:
